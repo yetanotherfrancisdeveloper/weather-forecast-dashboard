@@ -1,0 +1,11 @@
+download:
+  save_data_locally: True
+  filename: response
+  log: True
+
+cities:
+  [
+    { "city": "Cagliari", "state": "Sardinia", "country": "Italy" },
+    { "city": "Bologna", "state": "Emilia-Romagna", "country": "Italy" },
+    { "city": "Milano", "state": "Lombardy", "country": "Italy" }
+  ]

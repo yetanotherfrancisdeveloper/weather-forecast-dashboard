@@ -6,6 +6,23 @@ __pycache__/
 # C extensions
 *.so
 
+# Log
+log
+
+# Streamlit
+app/.streamlit/**
+!app/.streamlit/.gitkeep
+
+# Other
+app/data
+
+# Data
+data/**
+!data/.gitkeep
+
+# PyCharm
+.idea
+
 # Distribution / packaging
 .Python
 build/
