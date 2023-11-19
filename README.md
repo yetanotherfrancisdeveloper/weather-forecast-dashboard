@@ -143,7 +143,7 @@ docker build -t dashboard-image -f dashboard.Dockerfile .
 Once the image is built, you can run it using the following command:
 
 ```shell
-docker run -d --name dashboard-container dashboard-image
+docker run --name dashboard-container dashboard-image
 ```
 
 ## Queries in SQL and python
