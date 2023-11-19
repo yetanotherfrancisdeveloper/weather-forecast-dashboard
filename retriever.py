@@ -186,7 +186,7 @@ if __name__ == '__main__':
         print('Starting scheduler')
 
     # Get data through the API, update the tables in the DB and save data locally (if requested) every hour
-    schedule.every().hour.at(":44").do(
+    schedule.every().hour.at(":00").do(
         get_and_save_data,
         cities_to_retrieve=cities,
         save_data_locally=download_params['save_data_locally'],
