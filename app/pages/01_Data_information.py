@@ -64,6 +64,7 @@ def data_info_page():
     avg_temp_df = pd.DataFrame({'city': cities_names, 'avg_temperature_c': avg_temps})
     st.bar_chart(avg_temp_df, x='city', y='avg_temperature_c')
 
+    # Plot wind speed per city
     for city in cities:
         climate_condition_df_city = climate_condition_df.loc[climate_condition_df['city_id'] == city]
         city_name = city_df.loc[city_df['city_id'] == city].iloc[0]['name']
