@@ -79,15 +79,15 @@ bash ./run_retriever.sh
 Alternatively, you can run the python scripts directly in your virtual environment:
 
 ```shell
-python3 create_tables.py
-python3 retriever.py
+pipenv run python3 create_tables.py
+pipenv run python3 retriever.py
 ```
 
 Or if you have Windows as OS:
 
 ```shell
-python create_tables.py
-python retriever.py
+pipenv run python create_tables.py
+pipenv run python retriever.py
 ```
 
 ### How to run the dashboard
@@ -158,13 +158,13 @@ To run the python script you can simply run the following command in the termina
 your virtual environment:
 
 ```shell
-python3 data_information.py
+pipenv run python3 data_information.py
 ```
 
 Or if you have Windows as OS:
 
 ```shell
-python data_information.py
+pipenv run python data_information.py
 ```
 
 ## Possible improvements
